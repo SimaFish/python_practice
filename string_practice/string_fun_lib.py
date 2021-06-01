@@ -2,6 +2,7 @@ import re # need for "initcap" function
 import string as st # need for "capwords" function
 import jellyfish as jf # need for "soundex" function
 import random as rd
+# https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
 
 # Sets the first character in each word to uppercase and the rest to lowercase
 # https://docs.python.org/3/library/stdtypes.html#string-methods str.title()
@@ -171,3 +172,6 @@ msg_string = 'hello world'
 #     print(type(i))
 
 # print(rd.random())
+
+# def coalesce1(*arg):
+#   return reduce(lambda x, y: x if x is not None else y, arg)
